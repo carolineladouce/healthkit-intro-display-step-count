@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6124DD928ADC49D00C13BA7 /* HealthKit_Intro_Counting_StepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DD828ADC49D00C13BA7 /* HealthKit_Intro_Counting_StepsApp.swift */; };
+		C6124DDB28ADC49D00C13BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DDA28ADC49D00C13BA7 /* ContentView.swift */; };
+		C6124DDD28ADC49F00C13BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6124DDC28ADC49F00C13BA7 /* Assets.xcassets */; };
+		C6124DE028ADC49F00C13BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6124DDF28ADC49F00C13BA7 /* Preview Assets.xcassets */; };
+		C6124DEA28ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DE928ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsTests.swift */; };
+		C6124DF428ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DF328ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITests.swift */; };
+		C6124DF628ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6124DF528ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6124DE628ADC49F00C13BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6124DCD28ADC49D00C13BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6124DD428ADC49D00C13BA7;
+			remoteInfo = "HealthKit Intro Counting Steps";
+		};
+		C6124DF028ADC49F00C13BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6124DCD28ADC49D00C13BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6124DD428ADC49D00C13BA7;
+			remoteInfo = "HealthKit Intro Counting Steps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6124DD528ADC49D00C13BA7 /* HealthKit Intro Counting Steps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthKit Intro Counting Steps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6124DD828ADC49D00C13BA7 /* HealthKit_Intro_Counting_StepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_Intro_Counting_StepsApp.swift; sourceTree = "<group>"; };
+		C6124DDA28ADC49D00C13BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6124DDC28ADC49F00C13BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6124DDF28ADC49F00C13BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6124DE528ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit Intro Counting StepsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6124DE928ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_Intro_Counting_StepsTests.swift; sourceTree = "<group>"; };
+		C6124DEF28ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthKit Intro Counting StepsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6124DF328ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_Intro_Counting_StepsUITests.swift; sourceTree = "<group>"; };
+		C6124DF528ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6124DD228ADC49D00C13BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DE228ADC49F00C13BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DEC28ADC49F00C13BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6124DCC28ADC49D00C13BA7 = {
+			isa = PBXGroup;
+			children = (
+				C6124DD728ADC49D00C13BA7 /* HealthKit Intro Counting Steps */,
+				C6124DE828ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests */,
+				C6124DF228ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests */,
+				C6124DD628ADC49D00C13BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6124DD628ADC49D00C13BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6124DD528ADC49D00C13BA7 /* HealthKit Intro Counting Steps.app */,
+				C6124DE528ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests.xctest */,
+				C6124DEF28ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6124DD728ADC49D00C13BA7 /* HealthKit Intro Counting Steps */ = {
+			isa = PBXGroup;
+			children = (
+				C6124DD828ADC49D00C13BA7 /* HealthKit_Intro_Counting_StepsApp.swift */,
+				C6124DDA28ADC49D00C13BA7 /* ContentView.swift */,
+				C6124DDC28ADC49F00C13BA7 /* Assets.xcassets */,
+				C6124DDE28ADC49F00C13BA7 /* Preview Content */,
+			);
+			path = "HealthKit Intro Counting Steps";
+			sourceTree = "<group>";
+		};
+		C6124DDE28ADC49F00C13BA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6124DDF28ADC49F00C13BA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6124DE828ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6124DE928ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsTests.swift */,
+			);
+			path = "HealthKit Intro Counting StepsTests";
+			sourceTree = "<group>";
+		};
+		C6124DF228ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6124DF328ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITests.swift */,
+				C6124DF528ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift */,
+			);
+			path = "HealthKit Intro Counting StepsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6124DD428ADC49D00C13BA7 /* HealthKit Intro Counting Steps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6124DF928ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting Steps" */;
+			buildPhases = (
+				C6124DD128ADC49D00C13BA7 /* Sources */,
+				C6124DD228ADC49D00C13BA7 /* Frameworks */,
+				C6124DD328ADC49D00C13BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HealthKit Intro Counting Steps";
+			productName = "HealthKit Intro Counting Steps";
+			productReference = C6124DD528ADC49D00C13BA7 /* HealthKit Intro Counting Steps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6124DE428ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6124DFC28ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting StepsTests" */;
+			buildPhases = (
+				C6124DE128ADC49F00C13BA7 /* Sources */,
+				C6124DE228ADC49F00C13BA7 /* Frameworks */,
+				C6124DE328ADC49F00C13BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6124DE728ADC49F00C13BA7 /* PBXTargetDependency */,
+			);
+			name = "HealthKit Intro Counting StepsTests";
+			productName = "HealthKit Intro Counting StepsTests";
+			productReference = C6124DE528ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6124DEE28ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6124DFF28ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting StepsUITests" */;
+			buildPhases = (
+				C6124DEB28ADC49F00C13BA7 /* Sources */,
+				C6124DEC28ADC49F00C13BA7 /* Frameworks */,
+				C6124DED28ADC49F00C13BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6124DF128ADC49F00C13BA7 /* PBXTargetDependency */,
+			);
+			name = "HealthKit Intro Counting StepsUITests";
+			productName = "HealthKit Intro Counting StepsUITests";
+			productReference = C6124DEF28ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6124DCD28ADC49D00C13BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C6124DD428ADC49D00C13BA7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C6124DE428ADC49F00C13BA7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C6124DD428ADC49D00C13BA7;
+					};
+					C6124DEE28ADC49F00C13BA7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C6124DD428ADC49D00C13BA7;
+					};
+				};
+			};
+			buildConfigurationList = C6124DD028ADC49D00C13BA7 /* Build configuration list for PBXProject "HealthKit Intro Counting Steps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6124DCC28ADC49D00C13BA7;
+			productRefGroup = C6124DD628ADC49D00C13BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6124DD428ADC49D00C13BA7 /* HealthKit Intro Counting Steps */,
+				C6124DE428ADC49F00C13BA7 /* HealthKit Intro Counting StepsTests */,
+				C6124DEE28ADC49F00C13BA7 /* HealthKit Intro Counting StepsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6124DD328ADC49D00C13BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6124DE028ADC49F00C13BA7 /* Preview Assets.xcassets in Resources */,
+				C6124DDD28ADC49F00C13BA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DE328ADC49F00C13BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DED28ADC49F00C13BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6124DD128ADC49D00C13BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6124DDB28ADC49D00C13BA7 /* ContentView.swift in Sources */,
+				C6124DD928ADC49D00C13BA7 /* HealthKit_Intro_Counting_StepsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DE128ADC49F00C13BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6124DEA28ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6124DEB28ADC49F00C13BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6124DF428ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITests.swift in Sources */,
+				C6124DF628ADC49F00C13BA7 /* HealthKit_Intro_Counting_StepsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6124DE728ADC49F00C13BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6124DD428ADC49D00C13BA7 /* HealthKit Intro Counting Steps */;
+			targetProxy = C6124DE628ADC49F00C13BA7 /* PBXContainerItemProxy */;
+		};
+		C6124DF128ADC49F00C13BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6124DD428ADC49D00C13BA7 /* HealthKit Intro Counting Steps */;
+			targetProxy = C6124DF028ADC49F00C13BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6124DF728ADC49F00C13BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6124DF828ADC49F00C13BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6124DFA28ADC49F00C13BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthKit Intro Counting Steps/Preview Content\"";
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-Steps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6124DFB28ADC49F00C13BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthKit Intro Counting Steps/Preview Content\"";
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-Steps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6124DFD28ADC49F00C13BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-StepsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKit Intro Counting Steps.app/HealthKit Intro Counting Steps";
+			};
+			name = Debug;
+		};
+		C6124DFE28ADC49F00C13BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-StepsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKit Intro Counting Steps.app/HealthKit Intro Counting Steps";
+			};
+			name = Release;
+		};
+		C6124E0028ADC49F00C13BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-StepsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HealthKit Intro Counting Steps";
+			};
+			name = Debug;
+		};
+		C6124E0128ADC49F00C13BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKZTN2J83Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolineladouce.HealthKit-Intro-Counting-StepsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HealthKit Intro Counting Steps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6124DD028ADC49D00C13BA7 /* Build configuration list for PBXProject "HealthKit Intro Counting Steps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6124DF728ADC49F00C13BA7 /* Debug */,
+				C6124DF828ADC49F00C13BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6124DF928ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting Steps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6124DFA28ADC49F00C13BA7 /* Debug */,
+				C6124DFB28ADC49F00C13BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6124DFC28ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting StepsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6124DFD28ADC49F00C13BA7 /* Debug */,
+				C6124DFE28ADC49F00C13BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6124DFF28ADC49F00C13BA7 /* Build configuration list for PBXNativeTarget "HealthKit Intro Counting StepsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6124E0028ADC49F00C13BA7 /* Debug */,
+				C6124E0128ADC49F00C13BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6124DCD28ADC49D00C13BA7 /* Project object */;
+}
